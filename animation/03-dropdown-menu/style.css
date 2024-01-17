@@ -30,3 +30,16 @@ ul.dropdown-menu li:hover {
 }
 
 
+@keyframes foobar {
+  from{
+    transform: scaleY(0)
+  }
+
+  50%{
+    transform: scaleY(1.2);
+  }
+
+  to{
+    transform: scaleY(1);
+  }
+}
